@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.7.249.193:5000/dgozalo/test-quickstart-22
+  tag: 0.0.3
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
